@@ -1,0 +1,35 @@
+body{
+
+
+  margin: 0;  
+  padding: 0;
+  background-color: rgb(238, 231, 129);
+  position: relative;
+
+}
+.weather{
+
+margin-top: 50px;
+
+}
+form{
+
+  margin-top: 150px;
+ 
+}
+.ghost-input{
+
+  padding: 10px;
+  color: #444;
+  border: none;
+}
+.ghost-button{
+  
+  color: #444;
+  border: none;
+}
+
+.div-class{
+
+margin-top:50px;
+}
