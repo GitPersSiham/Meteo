@@ -1,7 +1,11 @@
+const dotenv =require('dotenv')
 const express = require('express');
 const bodyParser = require('body-parser');
 
 const app = express()
+
+dotenv.config();
+
 const router  = require ('./router')
 
 app.use(express.static('public'));

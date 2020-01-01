@@ -2,12 +2,13 @@
 const request = require('request')
 
 const WeatherController = {
-    getLogin:(request,response) =>{
+    getweather:(request,response) =>{
 response.render('weather', {weather: null, error: null})
       
     },
-    postLogin:(req,res) =>{
+    postweather:(req,res) =>{
         let city = req.body.city;
+       
         let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=7bbf0a4863848b4b548765f3e5f3ddf2`
       
         request(url, function (err, response, body) {
