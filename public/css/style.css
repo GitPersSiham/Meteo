@@ -1,35 +1,65 @@
 body{
 
-
-  margin: 0;  
+  margin: 0;
   padding: 0;
-  background-color: rgb(238, 231, 129);
-  position: relative;
-
-}
-.weather{
-
-margin-top: 50px;
-
-}
-form{
-
-  margin-top: 150px;
- 
-}
-.ghost-input{
-
-  padding: 10px;
-  color: #444;
-  border: none;
-}
-.ghost-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(#00449e, #e66465);
+  margin-top: 50px;
   
-  color: #444;
-  border: none;
-}
+  
+  }
+  
+  form{
+  
+    margin-top: 150px;
+   
+   
+  }
+  .ghost-input{
+  
+    padding: 20px;
+    color: #444;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    
+  }
+  .ghost-button{
+    
+    color: #444;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+  
+  .div-class{
+  
+  margin-top:50px;
+  }
+  
+  
+  .container{
+  text-align: center;
+  
+  }
+  h3{
+  
+    color:white ;
+    margin-top: 30px;
+  }
+  
+  .div-class{
+  
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  
+  p{
+    color :rgb(245, 215, 215);
+    font-size:20px;
 
-.div-class{
-
-margin-top:50px;
-}
+  }
