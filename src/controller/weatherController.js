@@ -17,7 +17,7 @@ response.render('weather', {weather: null, error: null})
           } else {
             let weather = JSON.parse(body)
             if(weather.main == undefined){
-              res.render('index', {weather: null, error: 'Error, please try again'});
+              res.render('weather', {weather: null, error: 'Error, please try again'});
       
             } else {
               let weatherText = `Il est ${weather.main.temp} degrés en ${weather.name}!`;
