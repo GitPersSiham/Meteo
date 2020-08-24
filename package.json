@@ -2,11 +2,7 @@
   "name": "api-meteo",
   "version": "1.0.0",
   "description": "",
-<<<<<<< HEAD
-  "main": "src/index.js",
-=======
   "main": "dist/index.js",
->>>>>>> 417ebf988912d9326d178b06ee576edc20ae75e0
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./src/index.js",
