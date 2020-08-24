@@ -11,12 +11,12 @@ response.render('weather', {weather: null, error: null})
        
         let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=7bbf0a4863848b4b548765f3e5f3ddf2`
       
-        request(url, function (err, response, body) {
+        request(url, function (err, respone, body) {
           if(err){
-            res.render('index', {weather: null, error: 'Error, please try again'});
+            res.render('weather', {weather: null, error: 'Error, please try again'});
           } else {
             let weather = JSON.parse(body)
-            if(weather.main == undefined){
+            if(weather.main === undefined){
               res.render('weather', {weather: null, error: 'Error, please try again'});
       
             } else {
