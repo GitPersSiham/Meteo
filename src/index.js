@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 
 
 const app = express()
-const PORT = process.env.PORT ||5050;
+const port = process.env.PORT ||5050;
 
 dotenv.config();
 
@@ -19,6 +19,6 @@ app.use(express.static('public'));
 app.use (router);
 
 
-app.listen(PORT, function () {
-    console.log(`App running on port ${PORT}`);
+app.listen(port, function () {
+    console.log(`App running on port ${port}`);
   })
