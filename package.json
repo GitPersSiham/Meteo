@@ -7,10 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./src/index.js",
     "dev": "nodemon ./src/index.js"
-<<<<<<< HEAD
-=======
-    
->>>>>>> 2a69ab5d27a9e2353e6463f1811830f6d3a65b6f
   },
   "author": "Siham",
   "license": "ISC",
@@ -23,14 +19,5 @@
   },
   "devDependencies": {
     "nodemon": "^1.18.9"
-  },
-<<<<<<< HEAD
-  "engines": {
-    "node": ">0.11.9"
   }
-=======
-   "engines" : { "node" : ">0.11.9" } 
-
-
->>>>>>> 2a69ab5d27a9e2353e6463f1811830f6d3a65b6f
 }
